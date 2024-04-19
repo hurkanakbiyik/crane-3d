@@ -1,3 +1,5 @@
+# Visualizing a Robotic Wrist
+
 ## Getting Started
 
 First, run the development server:

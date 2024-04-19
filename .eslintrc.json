@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "standard-with-typescript"
+  ],
+  "ignorePatterns": ["node_modules/", ".next/", "out/"],
+  "rules": {
+    "react/no-unknown-property" : "off",
+    "@typescript-eslint/explicit-function-return-type" : "off",
+    "@typescript-eslint/strict-boolean-expressions" : "off",
+    "@typescript-eslint/no-non-null-assertion" : "off"
+  }
 }
